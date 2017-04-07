@@ -1,0 +1,53 @@
+/*
+ *	GRID LANDING PAGE
+ *	=============================================
+ */
+
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 1.2rem;
+}
+
+p {
+	font-size: 1.3rem;
+}
+
+a {
+	color: #82074a;
+}
+
+a:hover {
+	color: #837878;
+	cursor: pointer;
+}
+
+a:visited {
+	color: #82074a;
+}
+
+ul, li {
+	font-size: 1.5rem;
+	list-style: none;
+}
+
+.container {
+	max-width: 120rem;
+	width: 100%;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
