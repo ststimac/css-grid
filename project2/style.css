@@ -1,0 +1,37 @@
+/*
+ *	GRID EXPERIMENT 3: VERTICAL COLUMN
+ *	=============================================
+ */
+
+ html {
+ 	font-size: 62.5%;
+ }
+
+ * {
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+
+ @media (min-width:600px) {
+
+ 	@supports (display: grid) {
+
+ 	section {
+ 		display: grid;
+ 		grid-template-columns: repeat(20, 8vw);
+ 		grid-template-rows: repeat(20, 8vw) 1fr;
+ 		grid-gap: 1vw;
+ 	}
+
+  header {
+
+  }
+
+  .album {
+
+  }
+
+
+  }
+}
