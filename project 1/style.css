@@ -62,6 +62,8 @@ iframe {
 
 @media (min-width:600px) {
 
+	@supports (display: grid) {
+
 	article {
 		display: grid;
 		grid-template-columns: repeat(10, 8vw);
@@ -182,5 +184,7 @@ iframe {
 		grid-row: 32;
 		align-self: start;
 	}
+
+}
 
 }
